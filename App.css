@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Miskatonic;
+  src: url(Miskatonic.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Lovecraft;
+  src: url(LovecraftsDiary.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+    font-family: Cthullhu;
+    src: url(CTHUR___.ttf);
+    font-weight: bold;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  height: 1000px;
+  padding: 20px;
+  color: white;
+  background-image: url("img/header.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.App-header h1{
+  font-size: 60px;
+  color: white;
+  font-family: Cthullhu;
+}
+
+.App-arrow{
+  text-align: center;
+  margin: 37%;
+
+  font-size: x-large;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
